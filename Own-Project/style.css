@@ -1,0 +1,56 @@
+.maindiv{
+    border: 2px solid red;
+    display: flex;
+    /* flex-direction: row; */
+
+    
+}
+.maindiv123{
+    background-color: aqua;
+    width: 30%;
+    border: 10px solid white;
+    height: 500;
+}
+
+.container{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 7%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70;
+;
+
+    
+}
+b{
+    font-size: larger;
+}
+
+.icon1{
+    color: red;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.icon2{
+    color: green;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.close:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.done:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.container2{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
